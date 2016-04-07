@@ -1,12 +1,13 @@
 package spaceships.model;
 
-
 public class Position {
 
   private int row;
 
   private int col;
 
+    public Movement myMovement;
+  
   public Position(int i, int j) {
 	  this.row = i;
 	  this.col = j;

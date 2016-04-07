@@ -1,6 +1,6 @@
 package spaceships.model;
 
-public class NamedPlayer extends Player {
+public class NamedPlayer extends Player, Player {
 
   public String name;
 

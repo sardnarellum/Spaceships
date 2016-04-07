@@ -4,7 +4,11 @@ import java.util.Vector;
 
 public class Main {
 
-    public Vector  myGameState;
+    private Controller ctrl;
+    
+    public Main(){
+    	ctrl = new Controller(null, null);
+    }
 
   public void startGame() {
   }

@@ -1,22 +1,21 @@
 package spaceships.model;
 
 import java.util.ArrayList;
-import java.util.Vector;
 
 public class Player {
+	
+	private String id;
 
-  public Integer points;
+  private Integer points;
 
-  public ArrayList ships;
-
-    public Vector  myGameState;
-    public GameState myGameState;
+  private ArrayList<Spaceship> ships;
 
   public int getPoints() {
-  return 0;
+	  return points;
   }
 
   public void incrPoints() {
+	  ++points;
   }
 
 }

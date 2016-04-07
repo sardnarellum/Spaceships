@@ -5,14 +5,6 @@ public class Movement {
   private Position from;
 
   private Position to;
-
-    /**
-   * 
-   * @element-type Position
-   */
-  public Vector  myPosition;
-    public Vector  myGameState;
-    public Vector  myGameState;
     
   public Movement(Position from, Position to) {
 	  this.from = from;

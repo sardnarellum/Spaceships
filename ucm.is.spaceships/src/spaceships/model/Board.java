@@ -1,19 +1,18 @@
 package spaceships.model;
 
-
 public class Board {
 
-  private Element[][] board;
-  
-  public Board(int rows, int cols){
-	  board = new Element[rows][cols];
+  private Spaceship[][] board;
+
+  public Board(int rows, int cols) {
+	  board = new Spaceship[rows][cols];
   }
-  
-  public void addElement(Position pos, Element ship){
+
+  public void addElement(Position pos, Spaceship ship) {
 	  board[pos.getRow()][pos.getRow()] = ship;
   }
-  
-  public void moveElement(Movement m){
+
+  public void moveElement(Movement m) {
 	  //TODO: implement movement on board
   }
 
